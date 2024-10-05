@@ -1,0 +1,18 @@
+
+
+.kartya{
+    background-color: gray;
+
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width:500px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
